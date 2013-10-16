@@ -1,0 +1,157 @@
+/* Homepage CSS */
+
+html {
+	background: #536475 url(../img/background.png);
+}
+
+body {
+	color: white;
+	font-family: helvetica, arial, sans-serif;
+}
+
+a {
+	color: white;
+}
+
+/* GENERAL STYLES */
+#container {
+	position: relative;
+	padding-top: 25px;
+}
+
+/* BANNER */
+#banner #ipad img#appIcon{
+	position: absolute;
+	left:445px; top:358px;
+}
+
+#banner #title {
+	text-align: center;
+	text-shadow: 0px 1px 1px black;
+	font-size: 14px;
+}
+
+#banner #title h1 {
+	font-size: 48px;
+	text-shadow: 0px 3px 3px black;
+	margin-bottom: 17px;
+
+}
+
+#banner #title h2 {
+	margin-top: -20px;
+	text-shadow: 0px 2px 2px black;
+}
+
+#banner #title h3 {
+	padding-top: 30px;
+	font-size: 30px;
+}
+
+#banner #title #description {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 50px;
+	font-size: 15px;
+}
+
+#banner #title #nomore {
+	font-size: 19px;
+	font-weight: bold;
+	margin-top: 24px;
+}
+
+
+#banner #title img#appStore {
+	position: relative;
+	margin-top: 30px;
+}
+
+/* FEATURES */
+
+#features h2 {
+	text-shadow: 0px 2px 2px black;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 15px;
+}
+
+#features #featureList li {
+	list-style: none;
+	margin-left: 0;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding-left: 11px;
+	padding-right: 15px;
+}
+
+#features #featureList small {
+	display: block;
+	font-size:12px;
+	margin-bottom: 12px;
+	font-weight: 100;
+}
+
+/* SCREENSHOTS */
+#screenshots h2 {
+  padding-left: 30px;
+}
+
+#screenshots .ssTitle{
+  display: block;
+  text-align: center;
+}
+
+#screenshots ul{
+  margin-top: 30px;
+  margin-left: 40px;
+}
+
+#screenshots li {
+  list-style: none;
+  float: left;
+  margin-left: 0;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+#twitter {
+  text-align: center;
+}
+
+#twitter a{
+  color: #BBBBBB;
+  text-decoration:none;
+  font-size: 14px;
+}
+
+#twitter img{
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+
+/* HELP */
+#help {
+  padding-top: 20px;
+  text-align: center;
+}
+
+#help a{
+  font-size: 13px;
+}
+
+
+/* FOOTER */
+#footer #footerContent {
+  padding-top:40px;
+	padding-bottom: 20px;
+	font-size: 10px;
+	color: #787878;
+  text-align: center;
+}
+
+#footer #copyright {
+  font-size: 12px;
+}
